@@ -16,7 +16,7 @@ $zoo->addAnimal(new Dog('Бобик', 'Дворняжка'));
 
 
 print_r($zoo->listAnimals());
-//print_r($zoo->makeAllSounds());
+print_r($zoo->makeAllSounds());
 
 
 

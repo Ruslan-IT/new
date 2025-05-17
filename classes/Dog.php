@@ -12,7 +12,7 @@ class Dog extends Animal implements SoundMakerInterface, FeederInterface
 
     public function eat($food)
     {
-        return 'Собака ест'.$food;
+        return 'Собака ест1'.$food;
     }
 
     public function makeSound()
